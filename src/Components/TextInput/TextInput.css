@@ -1,0 +1,41 @@
+
+.inputbox{
+    
+    width: 100%;
+    padding: 10px 15px;
+    height: 50%;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    margin: 10px 0px;
+    left: 0px;
+    right: 0px;
+    top: 22px;
+    bottom: 0px;
+    background: #FCFDFE;
+    border: 1px solid #F0F1F7;
+    box-sizing: border-box;
+    border-radius: 8px;
+ }
+ .inputbox:focus ~ label,
+ .inputbox:focus ~ label{
+     top: -5px;
+     color: black;
+ }
+ .confi{ 
+
+    width:100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 20px 50px -10px 0;
+    background: #ff3737;
+    box-shadow: 0px 4px 12px rgba(55, 81, 255, 0.24);
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+ }  
+
+ 
